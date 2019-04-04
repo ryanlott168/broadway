@@ -46,10 +46,11 @@ nav {
   text-align: left;
 }
 
-nav {
+ nav {
   margin: 0;
+  display: inline;
 }
 
-nav li {
-  display: block;
+nav li, .footer p {
+  display: inline;
 }
